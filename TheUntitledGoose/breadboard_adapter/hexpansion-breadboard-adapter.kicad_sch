@@ -605,7 +605,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 20e83558-c093-47a0-aacf-e4e395202821)
   )
-  (label "A_NDET" (at 59.69 41.91 180) (fields_autoplaced)
+  (label "DET" (at 59.69 41.91 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8ca3b0f4-2094-4640-a4ea-7c7e684cbe19)
   )
@@ -634,19 +634,19 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1747d23c-1c7f-498c-93db-4b1ddd12c514)
   )
-  (hierarchical_label "ALS1" (shape bidirectional) (at 50.8 30.48 0) (fields_autoplaced)
+  (hierarchical_label "LS1" (shape bidirectional) (at 50.8 30.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3934f81b-9b8c-4a5f-9edd-d4520b83e392)
   )
-  (hierarchical_label "ALS2" (shape bidirectional) (at 50.8 33.02 0) (fields_autoplaced)
+  (hierarchical_label "LS2" (shape bidirectional) (at 50.8 33.02 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 49a4035c-f72c-4218-b257-2aa223c8c3fb)
   )
-  (hierarchical_label "ALS5" (shape bidirectional) (at 52.07 48.26 0) (fields_autoplaced)
+  (hierarchical_label "LS5" (shape bidirectional) (at 52.07 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 60ea7d63-39e8-49cb-a348-92b76b07bc2e)
   )
-  (hierarchical_label "ALS3" (shape bidirectional) (at 52.07 43.18 0) (fields_autoplaced)
+  (hierarchical_label "LS3" (shape bidirectional) (at 52.07 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 714a8430-ffae-43c2-bb5a-f5771ab88fa5)
   )
@@ -654,11 +654,11 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7a8178db-0250-476c-8019-0e9d53795268)
   )
-  (hierarchical_label "AH1" (shape bidirectional) (at 76.2 48.26 0) (fields_autoplaced)
+  (hierarchical_label "HS1" (shape bidirectional) (at 76.2 48.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 80d2c962-47bc-48d6-8b83-2d3655bb8f4f)
   )
-  (hierarchical_label "SDA_A" (shape bidirectional) (at 50.8 35.56 0) (fields_autoplaced)
+  (hierarchical_label "SDA" (shape bidirectional) (at 50.8 35.56 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 99736e9e-091d-4e28-9f6c-adf09e2096b8)
   )
@@ -666,11 +666,11 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ac5f6935-26cc-45d8-a197-6fb10aacd0cd)
   )
-  (hierarchical_label "SCL_A" (shape bidirectional) (at 50.8 38.1 0) (fields_autoplaced)
+  (hierarchical_label "SCL" (shape bidirectional) (at 50.8 38.1 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c1698300-f011-41ab-a3df-8a356c43a0b7)
   )
-  (hierarchical_label "ALS4" (shape bidirectional) (at 52.07 45.72 0) (fields_autoplaced)
+  (hierarchical_label "LS4" (shape bidirectional) (at 52.07 45.72 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f4454362-3fd2-43a4-9325-f6b69ad13921)
   )
@@ -701,7 +701,7 @@
     (pin "7" (uuid 21686c24-b392-445e-801f-64ed8134b9a5))
     (pin "9" (uuid 4c15dea4-d715-4eac-b373-a32b0678b0ee))
     (instances
-      (project "tildagon-base"
+      (project "hexpansion-breadboard-adapter"
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06"
           (reference "J3") (unit 1)
         )
@@ -735,7 +735,7 @@
     (pin "7" (uuid 6b684f19-4694-4a8b-b535-7d94d27a01db))
     (pin "9" (uuid 702a78f6-c33e-4c22-81f2-4e96edfcffce))
     (instances
-      (project "tildagon-base"
+      (project "hexpansion-breadboard-adapter"
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06"
           (reference "J2") (unit 1)
         )
@@ -779,7 +779,7 @@
     (pin "2" (uuid 560bcad7-712f-476e-8db9-19ce8120fc2b))
     (pin "8" (uuid 93e9b788-99bc-401b-9a14-0beaa2c6e9f4))
     (instances
-      (project "tildagon-base"
+      (project "hexpansion-breadboard-adapter"
         (path "/6dcb0502-87e2-4c28-9ce8-81aab8925f06"
           (reference "J1") (unit 1)
         )
